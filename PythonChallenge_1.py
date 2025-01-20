@@ -17,5 +17,3 @@ df = df.reset_index(drop=True)  # 인덱스 재설정
 
 # 데이터프레임 출력
 data = pd.DataFrame(df)
-
-data.head(5)
